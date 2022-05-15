@@ -1,0 +1,73 @@
+
+    #main {
+    background-image: url(../Images/IMAGE/login/bg_reg.png);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    min-height: 718px;
+    }
+    #body-content{
+        width: 75%;
+        margin: 0 auto;
+        padding-top: 135px;
+    }
+    #body-content .page-title{
+        color: #e53328;
+        height: 88px;
+        line-height: 80px;
+        font-size: 60px;
+        font-weight: bold;
+        background-color: white;
+        width: 360px;
+        border-radius: 10px;
+        padding-left: 15px;
+    }
+    #body-content .page-title{
+        color: #e53329;
+        font-size: 60px;
+        font-weight: bold;
+    }
+    #main-contain{
+        background-color: #ffe9db;
+        width: 60%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 20px;
+    }
+    .title-job{
+        color: #403c38;
+        font-size: 25px;
+        font-weight: bold;
+        margin-left: 20px;
+        text-align: center;
+    }
+    .title-job i{
+        position: relative;
+        top: -8px;
+        font-size: 20px;
+    }
+    .inf-job{
+        color: #883a04;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .inf-job label{
+        color: #883a04;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #main-contain p{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .inf-job ol{
+        padding-top: 10px;
+        padding-left: 30px;
+    }
+    .inf-job ol li {
+        list-style: decimal;
+    }
+    
+   
+
+   

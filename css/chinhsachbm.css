@@ -1,0 +1,52 @@
+
+    #main {
+    background-image: url(../Images/IMAGE/office/bg_term.png);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center center;
+    min-height: 718px;
+    }
+    #body-content{
+        width: 75%;
+        margin: 0 auto 50px auto;
+        padding-top: 135px;
+    }
+    #body-content .page-title{
+        color: #e53329;
+        font-size: 60px;
+        font-weight: bold;
+    }
+    #main-contain{
+        background-color: #ffe9db;
+        width: 60%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 20px;
+    }
+    #main-contain p{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .title-job{
+        color: black;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .inf-job{
+        color: #883a04;
+
+    }
+    .inf-job label{
+        color: #883a04;
+        font-weight: bold;
+        margin-top: 20px;
+        display: block;
+    }
+    .inf-job ul{
+        padding-top: 5px;
+        padding-left: 25px;
+    }
+    .inf-job ul li {
+        list-style: square;
+    }
+    

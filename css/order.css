@@ -1,0 +1,190 @@
+
+    #main {
+    background-image: url(../Images/IMAGE/order/BG-OrderOnline.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    min-height: 718px;
+    }
+    ul, li{
+        list-style: none;
+    }
+    #main .wrapper{
+        width: 75%;
+        padding-top: 135px;
+        margin: auto;
+    }
+    .wrapper .page_title{
+        background-color: white;
+        color: #E53328;
+        font-size: 60px;
+        font-weight: bold;
+        line-height: 75px;
+        width: 470px;
+        padding-left: 15px;
+        border: 7px;
+       
+    }
+    .content_body{
+        position: relative;
+        margin-top: 10px;
+        justify-content: space-between;
+        display: flex;
+    }
+    .order_toolbar .category_list_menu{
+        margin: 0;
+        width: 100%;
+        font-size: 12px;
+        font-weight: bold;
+        background-color:rgba(255,255, 255, 0.8) ;
+    }
+    .category_list_menu li a.active{
+        background-color: #f9ad81;
+    }
+    .category_list_menu li a:hover{
+        background-color: #f9ad81;
+    }
+    .order_toolbar ul li a{
+        padding: 9px;
+        display: block;
+        color: #984d17;
+    }
+    .content_body_main{
+        background-color: rgba(255,255, 255, 0.8);
+        width: 570px;
+        margin-bottom: 100px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .content_body_main .category_item .title{
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: Verdana;
+        background-image: url(../Images/IMAGE/order/order.bg-title.png);
+        background-repeat: repeat-x;
+        height: 40px;
+        display: flex;
+    }
+    .category_item{
+        margin-bottom: 100px;
+    }
+    .category_item .title .category_name{
+        padding: 10px;
+    }
+    .category_item .title .description{
+        font-size: 11px;
+        margin-left: auto;
+    }
+    .category_item .title .description ul{
+        display: flex;
+        padding: 5px;
+    }
+    .category_item .title .description ul li{
+        line-height: 15px;
+        margin-right: 15px;
+    }
+    .category_item .title .description .stick_description{
+        padding: 12px;
+    }
+    .category_product .product_list .item{
+        padding: 15px 5px;
+    }
+    .product_list .item .detail_product{
+        display: flex;
+        padding-right: 5px;
+    }
+    .detail_product .product_image img{
+        width: 100%;
+    }
+    .detail_product .product_shop{
+        padding: 5px 10px;
+        width: 200px;
+    }
+    .product_shop .product_name{
+        color: #ff0000;
+        font-size: 16px;
+        text-transform: lowercase;
+    }
+    .product_shop .description{
+        color: #777c98;
+        font-size: 11px;
+        font-weight: bold;
+    }
+    .product_shop .action{
+        margin-top: 10px;
+    }
+    .detail_product .product_configurable_items{
+        width: 100px;
+    }
+    .detail_product .product_configurable_item{
+        display: flex;
+        justify-content: flex-end;
+        line-height: 25px;
+        font-weight: bold;
+    }
+    .detail_product .product_configurable_item .item_price{
+        color: #e0611d;
+        font-size: 12px;
+    }
+    .detail_product .product_configurable_item .add_or_remove{
+        margin-left: 5px;
+    }
+    .product_configurable_item .add_or_remove a{
+        color: #831d1d;
+    }
+    .product_configurable_item .add_or_remove i{
+        font-size: 20px;
+    }
+    .category_product .product_list .item.active{
+        background-color: #edd7c3;
+    }
+    .category_product .product_list .item:hover{
+        background-color: #ffe9da;
+    }
+    .sidebar_right_col{
+        width: 265px;
+        height: 155px;
+        background-color: rgba(255,255, 255, 0.8);
+    padding-bottom: 10px;
+    }
+    .sidebar_right_col .side_bar_mini_cart .title_mini_cart{
+        background-image: url(../Images/IMAGE/order/order.bg-title.png);
+        background-repeat: repeat-x;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: verdana;
+        line-height: 40px;
+        height: 40px;
+        padding-left: 10px;
+        padding-bottom: 13px;
+
+    }
+    .side_bar_mini_cart .shipping_methods{
+        margin-left: 7px;
+        margin-right: 7px;
+        padding-right: 5px;
+        padding-bottom: 10px;
+    }
+    .shipping_methods .checkout_detail_infor{
+        color: #833706;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .footer_mini_cart .btn_order{
+        background-image: url(../Images/IMAGE/order/btn-order.png);
+        background-repeat: repeat-x;
+        border-radius: 4px;
+        width: 235px;
+        height: 35px;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: Verdana;
+        padding: 10px auto;
+        line-height: 30px;
+        text-align: center;
+    }
+    .chiadoc{
+        width: 130px;
+    }

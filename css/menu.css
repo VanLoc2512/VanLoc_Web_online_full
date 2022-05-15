@@ -1,0 +1,139 @@
+
+    #main {
+    background-image: url(../Images/IMAGE/menu/menus-bg.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+    min-height: 718px;
+    }
+    #body_content{
+        width: 80%;
+        margin: 0px auto;
+        display: flex;
+        padding-top: 135px;
+    }
+    .col-left{
+        position: fixed;
+        width: 18%;
+        margin-left: 10%;
+    }
+    .col-left .title-menu{
+        color: #E53328;
+        font-size: 3vw;
+        font-weight: bold;
+        margin: 0px;
+        border-radius: 10px 10px 0 0;
+        background-color: #fff;
+        line-height: 60px;
+        padding-left: 10px;
+    }
+    #top-menu{
+        background-color: rgba(255, 255, 255, 0.8);
+        top: 60px;
+    }
+    #top-menu ul li{
+        line-height: 25px;
+    }
+    #top-menu a{
+        display: block;
+        padding: 5px 25px 7px 8px;
+        color: #984d17;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    #top-menu li.active a{
+        background-color: #f9ad81;
+        color: #984d17;
+    }
+    #top-menu li:hover a{
+        background-color: #f9ad81;
+        color: #984d17;
+    }
+    .col-right{
+        width: 60%;
+        background-color: rgba(255, 255, 255, 0.8);
+        margin-bottom: 50px;
+        margin-left: 35%;
+    }
+    .col-right #main-menu .main_title{
+        margin-right: 15px 0 5px;
+    }
+    .col-right .content-title{
+        background-image: url(../Images/IMAGE/checkout/bg_tiltle_checkout.png);
+        Background-repeat: repeat x;
+        color: #fff;
+        padding-left: 13px;
+        height: 30px;
+        padding-bottom: 13px;
+    }
+    .col-right .content-title h3 {
+        font-family: Vardana;
+        line-height: 40px;
+        font-size: 14px;
+    }
+    .col-right .sub-title{
+        background-color: #fff7f4;
+        padding: 16px;
+        font-size: 13px;
+    }
+    .col-right .sub-title .sub{
+        border: dashed thin;
+        padding: 10px;
+    }
+    .module .conten-content{
+        display: flex;
+    }
+    .col-right .conten-content {
+        overflow: hidden;
+    }
+    .content-content{
+        display: flex;
+    }
+    .content-content .product {
+        width: 50%;
+        margin-left: 30px;
+        padding: 5px 5px 15px 25px;
+        justify-content: flex-end;
+    }
+    .content-content .product h4{
+        color: #ff0000;
+        font-size: 16px;
+        padding-left: 20px;
+        margin: 5px 0px;
+    }
+    .content-content .product-image{
+        padding: 10px 0;
+    }
+    .content-content .product-image img{
+        width: 244px;
+        height: 130px;
+    }
+    .content-content .product-desc{
+        margin: 5px;
+        color: #777c98;
+        font-size: 13px;
+        height: 47px;
+        padding-right: 10px;
+    }
+    .content-content .price{
+        margin: 0;
+        padding-top: 20px;
+        font-size: 12px;
+        color: #ff0000;
+    }
+    .content-content .price span{
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+    #toTop{
+        background: url(../Images/IMAGE/menu/back-to-top.png);
+        width: 69px; 
+        height: 93px;
+        display: block;
+        position: fixed;
+        bottom: 40px;
+        cursor: pointer;
+        right: 20px;
+    }
+
+    

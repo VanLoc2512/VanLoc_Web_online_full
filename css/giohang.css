@@ -1,0 +1,183 @@
+
+    #main {
+    background-image: url(../Images/IMAGE/shopping_cart/bg_pg.png);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    min-height: 718px;
+    }
+    #body-content{
+        padding: 130px 150px 30px 180px;
+    }
+    #body-content .page-title{
+        color: #e53328;
+        font-size: 60px;
+        font-weight: bold;
+    }
+    #main-shopping-cart{
+        margin: 30px auto;
+        height: auto;
+    }
+    .tbl-cart-orther{
+        border-collapse: collapse;
+        border: 2px solid #d7d7d7;
+        font-size: 13px;
+        width: 100%;
+        height: 250px;
+    }
+    .tbl-cart-orther th{
+        color: #a54715;
+        font-size: 15px;
+        border: 2px #d7d7d7;
+        background-color: #f9ad81;
+        align-items: center;
+        margin: 0px auto;
+    }
+    .tbl-cart-orther td{
+        border: 2px solid #d7d7d7;
+        background-color: #ffe9da;
+        text-align: center;
+    }
+    .tbl-cart-orther td:first-child{
+        width: 150px;
+    }
+    .tbl-cart-orther .product-name{
+        text-align: left;
+        padding-left: 10px;
+        color: #e53328;
+        font-size: 18px;
+        text-decoration: underline;
+    }
+    .tbl-cart-orther .product_size{
+        text-align: left;
+        padding-left: 10px;
+        color: #454545;
+
+    }
+    .tbl-cart-orther .product-price{
+        color: #454545;
+        font-weight: bold;
+    }
+    .tbl-cart-orther .product-qty{
+        text-align: center;
+        background-color: white;
+        width: 34px;
+        height: 18px;
+        border: none;
+        color: #454545;
+    }
+    .tbl-cart-orther .btn-close{
+        color: #f6741e;
+        font-size: 20px;
+    }
+    .add-orther-pro{
+        background-color: #f9ad81;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 5px 20px;
+
+    }
+    .cart-part-2{
+        background-color: #ffe9da;
+        border: 2px solid #d7d7d7;
+        padding-top: 10px;
+        display: flex;
+    }
+    .cart-part-2 .related-pro{
+        width: 35%;
+        font-size: 13px;
+    }
+    .related-pro .text-title{
+        color: #454545 ;
+        font-weight: bold;
+        padding: 10px;
+    }
+    .related-pro .product-image{
+        display: flex;
+    }
+    .product-image .img-detail{
+        padding: 10px;
+    }
+    .product-image .img-descript{
+        margin-left: 30px;
+    }
+    .img-descript .title-product{
+        color: #e53328;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    .img-descript .price-product{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    btn-adder{
+        margin-top: 10px;
+    }
+    .btn-submit{
+        background-color: #f6741e;
+        border: none;
+        color: white;
+        font-weight: bold;
+        padding: 5px;
+        cursor:pointer
+    }
+    .cart-part-2 .discount-code{
+        width: 35%;
+        border-left: 2px solid #d7d7d7;
+        border-right: 2px solid #d7d7d7;
+        font-size: 13px;
+        padding: 10px 20px;
+    }
+    .discount-code .font1colum2{
+        color: #d0500b;
+        font-weight: bold;
+    }
+    .discount-code .font2colum2{
+        color: #454545;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .discount-code .input-code{
+        display: flex;
+        margin-top: 10px;
+    }
+    .discount-code .textinput{
+        width: 65%;
+        height: 22px;
+    }
+    .cart-part-2 .proceed-checkout{
+        width: 30%;
+        color: #454545;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 10px;
+    }
+    .proceed-checkout .item{
+        display: flex;
+        justify-content: flex-end;
+        padding-bottom: 5px;
+        padding-top: 5px;
+
+    }
+    .item .title{
+        margin-right: 50px;
+    }
+    .proceed-checkout .total-price{
+        color: #e53328;
+        font-size: 18px;
+    }
+    .total-price .title{
+        margin-right: 40px !important;
+    }
+    .proceed-checkout .btn-submit{
+        width: 240px;
+        font-size: 20px;
+        margin-top: 20px;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+   
+
+    

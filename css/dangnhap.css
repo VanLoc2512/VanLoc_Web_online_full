@@ -1,0 +1,83 @@
+
+    #main {
+    background-image: url(../Images/IMAGE/shopping_cart/bg_pg.png);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    min-height: 718px;
+    }
+    #body-content{
+        padding: 130px 150px 30px 180px;
+    }
+    #body-content .page-title{
+        color: #e53329;
+        font-size: 60px;
+        font-weight: bold;
+    }
+    #Incontent{
+        color: #883a04;
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    #cleft{
+        width: calc(50% - 2.5px);
+        background-color: #ffe9db;
+        padding: 20px;
+        margin-right: 5px;
+    }
+    .titleLogin, .titleRegister{
+        color: black;
+        font-size: 40px;
+    }
+    #cleft .username, #cleft .password{
+        display: flex;
+        margin-top: 10px;
+    }
+    #cleft .title-account{
+        width: 170px;
+        font-weight: bold;
+    }
+    #cleft .input-account{
+        width: 280px;
+        height: 20px;
+    }
+    .forgot-password a{
+        color: #883a04;
+    }
+    .forgot-password{
+        margin-top: 48px;
+        margin-left: 280px;
+    }
+    .btnLogin, .btnRegister{
+        width: 100px;
+        height: 35px;
+        background-color: #ab6c1d;
+        border: none;
+        border-radius: 10px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .btnLogin{
+        color: white;
+        font-size: 20px;
+        border-radius: 10px;
+        width: 90px;
+    }
+    #cright{
+        width: calc(50% - 2.5px);
+        background-color: #ffe9db;
+        text-align: justify;
+        padding: 20px;
+    }
+    #cright .register-account{
+        margin-top: 65px;
+        margin-left: 438px;
+        justify-content: flex-end;
+    }
+    .btnRegister a{
+        color: white;
+        font-size: 20px;
+    }
+
+   

@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh Toán</title>
+    <link rel="stylesheet" href="css/thanhtoan.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor/fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    <section id="header">
+        <!-- khối chứa logo -->
+        <div id="logo">
+            <a href="#">
+                <img src="Images/IMAGE/header/logo.png" alt="logo">
+            </a>
+        </div>
+        <!-- phần liên kết, menu, tìm kiếm -->
+        <div class="header_top" class="clearfix">
+            <!-- khung tim kiếm -->
+            <div id="searchform" class="clearfix">
+                <!-- liên kết đăng ký/ login -->
+                <div class="item" id="register">
+                   <a href="dangnhap.html">đăng nhập / đăng ký</a>
+                </div>
+                <!-- khung nhập nội dung tìm kiếm -->
+                <div class="item">
+                    <input class="search_textbox" type="text" value="Search"/>
+                    <div class="search_button">
+                        <a href="#"><img src="Images/IMAGE/header/searchbtn.png" alt="search"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- menu -->
+            <div id="menu" class="clearfix">
+                <ul>
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="order.html">đặt hàng online</a></li>
+                    <li><a href="menu.html">menu</a></li>
+                    <li><a href="#">khuyến mãi</a></li>
+                    <li class="menu_active"><a href="#">giới thiệu</a></li>
+                    <li><a href="#">liên hệ</a></li>
+                    <li><a href="#">tuyển dụng</a></li>
+                    <li class="carting"><a href="giohang.html"><img src="Images/IMAGE/header/cart.png" alt="cart"></a></li>
+                </ul>                    
+            </div>
+                <div id="flag">
+                    <a><img src="Images/IMAGE/header/vi.png" alt="VN" title="Vietnamese"></a>
+                    <a><img src="Images/IMAGE/header/uk.png" alt="UK" title="English"></a>
+                    <a><img src="Images/IMAGE/header/kor.png" alt="Kr" title="Korean"></a>
+                    <a><img src="Images/IMAGE/header/ja.png" alt="Jp" title="Japanese"></a>
+                </div>
+        </div>
+    </section>
+    <section id="main">
+        <div id="body-content">
+            <div class="content-title">
+                <h2 class="page-title">Thanh toán</h2>
+            </div>
+            <div id="main-checkout">
+                <div id="left-infor-checkout">
+                    <div class="round-circle-checkout">
+                        <div class="circle">
+                            <span>1</span>
+                        </div>
+                        <div class="text-title-checkout">
+                            <span>Billing & Shipping</span>
+                        </div>
+                    </div>
+                    <div id="content-register">
+                        <div id="login-form-checkout"> 
+                            <div class="lable-billing-center">
+                                <a id="user-account-checkout" href="#">Already have a account</a>
+                            </div>
+                            <div>
+                                <button class="btn-login">Login</button>
+                            </div>
+                        </div>
+                        <div class="new-infor-customer">
+                            <div class="infor-customer">
+                                <ul class="sub-left-checkout">
+                                    <li>
+                                        <span class="checkout-detail-infor">First Name (*)</span>
+                                        <input type="text" name="txt-firstname-checkout" class="input-checkout-short" value="">
+                                    </li>
+                                    <li>
+                                        <span class="checkout-detail-infor">Last Name (*)</span>
+                                        <input type="text" name="txt-last-checkout" class="input-checkout-short" value="">
+                                    </li>
+                                </ul>
+                                
+                            </div>
+                            <div class="infor-customer">
+                                    <span class="checkout-detail-infor">Email Address (*)</span>
+                                    <input type="text" name="email-address" class="input-checkout-long" >
+                            </div>
+                            <div class="infor-customer">
+                                <span class="checkout-detail-infor">Mobile Phone (*)</span>
+                                <input type="text" name="txt-telephone" class="input-checkout-long" >
+                            </div>
+                            <div class="infor-customer">
+                                <span class="checkout-detail-infor">Home Phone</span>
+                                <input type="text" name="txt-homephone" class="input-checkout-long" >
+                            </div>
+                            <div class="infor-customer">
+                                <span class="checkout-detail-infor">City</span>
+                                <div class="selection-checkout">
+                                    <div class="content-input-select-checkout">
+                                        <input type="text" value="--------------------Ho Chi Minh--------------------" class="div-input-checkout">
+                                        <a class="icon-selector-checkout"><i class="fas fa-caret-square-down    "></i></a>
+                                    </div>
+                                    <select class="dropdown-checkout">
+                                        <option value="volvo">Ha Noi</option>
+                                        <option value="saab">Da Nang</option>
+                                        <option value="mercedes">Can Tho</option>
+                                        <option value="audi">Binh Dinh</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="infor-customer">
+                                <span class="checkout-detail-infor">District</span>
+                                <div class="selection-checkout">
+                                    <div class="content-input-select-checkout">
+                                        <input type="text" value="--------------------Ho Chi Minh--------------------" class="div-input-checkout">
+                                        <a class="icon-selector-checkout"><i class="fas fa-caret-square-down"></i></a>
+                                    </div>
+                                    <select class="dropdown-checkout">
+                                        <option value="volvo">Q.1</option>
+                                        <option value="saab">Q.2</option>
+                                        <option value="mercedes">Q.3</option>
+                                        <option value="audi">Q.4</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="infor-customer">
+                                <span class="checkout-detail-inffor">Address (*)</span>
+                                <input type="text" name="txt-address" class="input-checkout-long">
+                            </div>
+                            <div class="infor-customer">
+                                <div class="label-billing-center"> 
+                                    <label> Create an account</label>
+                                </div>
+                            </div>
+                            <div class="infor-customer">
+                                <ul class="sub-left-checkout">
+                                    <li>
+                                        <span class="checkout-detail-infor">Password (*)</span>
+                                        <input type="text" name="txt-password" class="input-checkout-short" value="">
+                                    </li>
+                                    <li>
+                                        <span class="checkout-detail-infor">Confirm Password (*)</span>
+                                        <input type="text" name="txt-repassword" class="input-checkout-short" value="">
+                                    </li>
+                                </ul>
+                            
+
+                            </div>
+                            <div class="infor-customer">
+                                <input type="checkbox" name="sign-ship" value="sign-newsletter" checked="checked">
+                                <span class="checkout-detail-infor">Sign Up for Newsletter</span>
+
+                            </div>
+                            <div class="infor-customer">
+                                <input type="checkbox" name="sign-ship" value="ship-address">
+                                <span class="checkout-detail-infor">Ship to different Address</span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="right-infor">
+                    <div id="combine-part2-3">
+                        <div id="second-part" class="Shipping-Method">
+                            <div class="round-circle-checkout">
+                                <div class="circle">
+                                    <span>2</span>
+                                </div>
+                                <div class="text-title-checkout">
+                                    <span>Shipping Method</span>
+                                </div>
+                            </div>
+                            <div id="content-second-part">
+                                <div class="sub-left-radio">
+                                    <input type="radio" name="ship-method" value="free-ship" checked="checked">
+                                    <span class="checkout-detail-infor">Free Ship</span>
+                                </div>
+                                <div class="sub-left-radio">
+                                    <input type="radio" name="ship-method" value="take-out" >
+                                    <span class="checkout-detail-infor">Take Away</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="combine-part2-3">
+                            <div id="second-part" class="Shipping-Method">
+
+                            </div>
+                            <div id="third-part" class="Payment-Method">
+                                <div class="round-circle-checkout">
+                                    <div class="circle">
+                                        <span>3</span>
+                                    </div>
+                                    <div class="text-title-checkout">
+                                        <span>Payment Method</span>
+                                    </div>
+                                </div>
+                                <div id="content-third-part">
+                                    <div class="sub-third-content">
+                                        <input type="radio" checked="checked">
+                                        <span class="checkout-detail-infor">Cash / Delivery</span>
+                                    </div>
+                                    <div class="code-discount">
+                                        <div class="group-code-checkout">
+                                            <div class="title-text-input-checkout">
+                                                <span class="checkout-detail-infor">Discount Code</span>
+                                            </div>
+                                            <div class="method-checkout">
+                                                <input type="text" class="input-checkout-long-payment payment-input-checkout">
+                                                <button class="btn-payment">SUBMIT</button>
+                                            </div>
+                                        </div>
+                                        <div class="group-code-checkout">
+                                            <div class="title-text-input-checkout">
+                                                <span class="checkout-detail-infor">Gift Cart</span>
+                                            </div>
+                                            <div class="method-checkout">
+                                                <input type="text" class="input-checkout-long-payment payment-input-checkout">
+                                                <button class="btn-payment">SUBMIT</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div id="fourth-part">
+                        <div class="round-circle-checkout Checkout-Review">
+                            <div class="circle">
+                                <span>4</span>
+                            </div>
+                            <div class="text-title-checkout">
+                                <span>Checkout Review</span>
+                            </div>
+
+                        </div>
+                        <div class="content-fourth-part proceed-checkout">
+                            <div class="content-table">
+                                <table class="shopping-cart-detail" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                        <tr class="th">
+                                            <th width="65%" align="left">PRODUCT NAME</th>
+                                            <th width="15%" align="left">PRICR</th>
+                                            <th width="5%" align="left">QTY</th>
+                                            <th width="15%" align="left">SUBTOTAL</th>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top">
+                                                <a href="#" class="food-order">apple, mint, celery + lime juice</a>
+                                            </td>
+                                            <td align="center">175,000 VND</td>
+                                            <td align="center">2</td>
+                                            <td align="right">350,000 VND</td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top">
+                                                <span class="extra-order">+Extra</span>
+                                            </td>
+                                            <td align="center"></td>
+                                            <td align="center"></td>
+                                            <td align="right">25,000 VND</td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top">
+                                                <a href="#" class="food-order">bean and glass noodle salad</a>
+                                            </td>
+                                            <td align="right"></td>
+                                            <td align="center">1</td>
+                                            <td align="right">225,000 VND</td>
+                                        </tr>
+                                        <tr class="line-null">
+                                            <td valign="top" align="right" colspan="4"></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="3" align="right" class="sum-sum">Subtotal</td>
+                                            <td align="right"><span>600.000 VND</span></td>
+                                        </tr>    
+                                        <tr>
+                                            <td colspan="3" align="right" class="sum-sum">Voucher</td>
+                                            <td align="right"><span>50.000 VND</span></td>
+                                        </tr>    
+                                        <tr>
+                                            <td colspan="3" align="right" class="sum-sum">Grand Total</td>
+                                            <td align="right"><span>550.000 VND</span></td>
+                                        </tr>    
+
+                                    </tbody>
+
+                                </table>
+                            </div>
+                            <div id="end-checkout-content">
+                                <div class="left-review">
+                                    <label class="checkout-detail-infor">Choose your favorite restaurants to serve</label>
+                                    <div class="selectiom-checkout">
+                                        <div class="content-input-select-checkout">
+                                            <input type="text" value="----------------------Any---------------------" class="div-input-checkout">
+                                            <a class="icon-selector-checkout"><i class="fa fa-caret-square-down" aria-hidden="true"></i></a>
+                                        </div>
+                                        <select class="dropdown-checkout">
+                                            <option value="volvo">Ha Noi</option>
+                                            <option value="saab">Da Nang</option>
+                                            <option value="mercedes">Can Tho</option>
+                                            <option value="audi">Binh Dinh</option>
+                                        </select>
+                                    </div>
+                                
+                                    <div class="msg-commit">
+                                        <label class="checkout-detail-infor">Comment</label>
+                                        <textarea placeholder="Nhập nội dung..."></textarea>
+                                    </div>
+                                </div>
+                                <div class="right-review">
+                                    <div>
+                                        <input type="checkbox" name="term-condition">
+                                        <span class="checkout-detail-infor">I read and agree to <a href="">terms & condition</a></span>
+                                    </div>
+                                    <div class="checkout-right div-btn-order">
+                                       <button id="btn-place-order" class="btn-place-order"> Place Order</button>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            
+        </div>
+
+
+    </section>
+    <section id="footer">
+        <!-- Thông tin liên hệ -->
+        <div class="left_footer">
+            <ul>
+                <li class="item">@ The Al Fresco's Group 2019</li>
+                <li class="item"><a class="icon_face" href="#"><i class="fab fa-facebook"></i></a></li>
+                <li class="item"><a class="icon_youtube" href="#"><i class="fab fa-youtube-square"></i></a></li>
+                <li class="item"><a class="icon_app" href="#"><i class="fab fa-app-store""></i></a></li>               
+            </ul>
+        </div>
+        <!-- Liên kết trang phụ -->
+        <div class="right_footer">
+            <ul>
+                <li><a href="sitemap.html">sơ đồ site</a></li>
+                <li><a href="nhuongquyen.html">nhượng quyền</a></li>
+                <li><a href="chinhsachbm.html">chính sách bảo mật</a></li>
+                <li><a href="dieukiensd.html">điều kiện sử dụng</a></li>
+                <li class="final"><a href="headoffice.html">head office</a></li>
+            </ul>
+        </div>
+    </section>
+
+</body>
+
+</html>
